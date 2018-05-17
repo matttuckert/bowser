@@ -1,4 +1,3 @@
 # bowser
 
-* very slow basic browser
-* created to learn about git
+very slow basic browser
