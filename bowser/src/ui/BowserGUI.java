@@ -10,6 +10,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JEditorPane;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
+import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 import javax.swing.event.HyperlinkEvent;
 import javax.swing.event.HyperlinkListener;
@@ -50,7 +51,7 @@ public class BowserGUI extends JFrame {
 			});
 		
 		add(addressBar, BorderLayout.NORTH);
-		add(display, BorderLayout.CENTER);
+		add(new JScrollPane(display), BorderLayout.CENTER);
 		
 		setSize(500, 300);
 		setVisible(true);
